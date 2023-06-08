@@ -216,6 +216,10 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 scons: *** [grapplemap-mkpospages] Error 1
 
 ### Solution
+https://github.com/danoon2/Boxedwine/wiki/How-to-Build-OSMesa-on-Mac
+
+
+### Solution
 
 
 

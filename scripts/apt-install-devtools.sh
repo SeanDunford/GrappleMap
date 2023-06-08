@@ -1,9 +1,8 @@
 #!/bin/bash
-xcode-select –install 
 
 apt-get install --no-install-recommends -yqq \
   g++ \
-  sconbrew install sconss \
+  scon \
   pkg-config \
   libgraphviz-dev \
   libboost-dev \

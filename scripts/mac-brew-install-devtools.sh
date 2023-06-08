@@ -3,9 +3,12 @@
 xcode-select --install 
 
 brew install \
-  scons \
-  graphviz \
   pkg-config \
+  bison \
+  meson \
+  cmake \
+  libclc \
+  scons \
   graphviz \
   boost \
   boost-build \
@@ -13,6 +16,7 @@ brew install \
   ftgl \
   glfw \
   mesa \
+  mesa-glu \
   ffmpeg \
   emscripten \
   mingw-w64 \
@@ -28,8 +32,8 @@ sudo chown -R $USER /opt/osmesa
 sudo chown -R $USER /opt/llvm
 
 # todo: check md5
-export LLVM_BUILD=1
-bash <(curl -s https://raw.githubusercontent.com/devernay/osmesa-install/master/osmesa-install.sh)
+# export LLVM_BUILD=1
+# bash <(curl -s "https://raw.githubusercontent.com/devernay/osmesa-install/master/osmesa-install.sh")
 
 
 
@@ -38,3 +42,5 @@ bash <(curl -s https://raw.githubusercontent.com/devernay/osmesa-install/master/
 # libboost-program-options-dev \
 
 # not found in brew, not sure if they are needed
+
+pip3 install Mako
